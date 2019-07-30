@@ -1,0 +1,73 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+/* img {
+    height: 156px;
+    width: 156px;
+} */
+
+
+body {
+    font-family: 'Teko', sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-header {
+    font-family: 'Bungee Outline', cursive;
+    background-color: orange;
+    color: blue;
+    text-align: center;
+    font-size: 10vmin;
+    padding: 25px 25px;
+    margin: 0 auto;
+
+}
+
+#slogan {
+    color:  black;
+    text-align: center;
+    font-size: 2vmin;
+    margin: 5px auto;
+
+}
+
+#msg {
+    font-size: 5vmin;
+    margin: 0 auto;
+}
+
+section.board {
+    display: grid;
+    grid-template-columns: repeat(3, 20vmin);
+    grid-template-rows: repeat(3,20vmin);
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+section.board div {
+    border: 3px solid grey;
+    border-radius: 2%;
+
+}
+
+#reset-button {
+    margin-top: 10px;
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: orange;
+    border-radius: 5%;
+
+}
+
+#reset-button:hover {
+    background-color: darkgray;
+    color: white;  
+}
